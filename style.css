@@ -18,7 +18,7 @@ body {
 #header {
     width: 100%;
     height: 100vh;
-    background-image: url(Images/image.png);
+    background-image: url(Images/bgimage.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -75,12 +75,19 @@ li a:hover::after {
     font-size: 30px;
 }
 
-.header-txt h1 {
+.header-txt h2 {
     font-size: 60px;
 }
 
-.header-txt h1 span {
+.header-txt h2 span {
     color: #ff001e;
+}
+.normal-heading{
+    font-weight: normal;
+    color: #F8F9FA;
+}
+.indent{
+    text-indent: 40px;
 }
 
 /* ------------------------- About -------------------------- */
@@ -163,6 +170,9 @@ li a:hover::after {
     display: block;
 }
 
+#about p{
+    margin: 20px;
+}
 /* -------------------- Services --------------------- */
 
 #services {
